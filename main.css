@@ -377,4 +377,8 @@ footer {
   footer {
     width: 181%;
   }
+
+  .d-block {
+    filter: brightness(100%);
+  }
 }
