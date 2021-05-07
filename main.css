@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1917px;
+  width: 100%;
   /* border: 2px solid black; */
   /* background-color: aquamarine; */
 }
@@ -12,7 +12,7 @@ body {
 header {
   /* background: red; */
   /* border: 2px solid black; */
-  width: 1917px;
+  width: 100%;
   padding: 0px 45px 0px 45px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@ h2 {
 
 .menu {
   /* margin-top: 1.5%; */
-  height: 70px;
+  height: 35%;
   margin: 1.5% 8% 0 0;
   padding: 1%;
   list-style: none;
@@ -197,7 +197,7 @@ h4 {
 }
 
 .section-tarjetas {
-  margin: 0 0 30% 15%;
+  margin: 0 0 1% 15%;
 }
 
 footer {
@@ -209,6 +209,7 @@ footer {
   font-family: "Cambria" !important;
   font-size: 12px;
 }
+
 .footer1 {
   /* background-color: wheat; */
   width: 33%;
@@ -240,4 +241,140 @@ footer {
   justify-content: center;
   align-items: center;
   /* margin-left: 10px; */
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    /* background-color: rgb(110, 10, 43); */
+    width: 360px;
+  }
+
+  header {
+    /* background: red; */
+    /* border: 2px solid black; */
+    width: 652px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 110px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5%;
+  }
+
+  .redonda {
+    width: 85px;
+  }
+
+  h1 {
+    font-family: "Segoe UI" !important;
+    font-weight: bold;
+    font-size: 250%;
+    letter-spacing: -2px !important;
+  }
+
+  h2 {
+    font-family: "Brush Script MT";
+    font: italic 55;
+    padding: 0 0 3% 10%;
+    font-size: 170%;
+    color: #000000 !important;
+    opacity: 43%;
+  }
+
+  .menu {
+    /* margin-top: 1.5%; */
+    width: 470px;
+    height: 5%;
+    position: fixed;
+    top: 9%;
+    right: 33px;
+    padding-top: 12px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    font-family: "Pristina";
+    font-size: 150%;
+    background-color: #cd0d0a;
+  }
+
+  h3 {
+    /* width: 600px; */
+    font-family: "Segoe UI" !important;
+    font-weight: bold;
+    font-size: 150%;
+    letter-spacing: -2px !important;
+    margin: 10px 0 -5px 0;
+    position: fixed;
+    top: -0.9%;
+    color: white;
+    left: 290px;
+
+    /* background-color: aqua; */
+  }
+
+  h4 {
+    margin: 0 0 0 0;
+    font-family: "Cambria";
+    letter-spacing: 1px !important;
+    margin: 10px 20px 100px 10px;
+    /* opacity: 49%; */
+    color: black;
+    position: fixed;
+    top: 6.2%;
+    right: 1px;
+    left: 20px;
+    z-index: 100;
+  }
+
+  .titulo {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .section-tarjetas {
+    margin: 0 0 1% 55%;
+  }
+
+  .what {
+    width: 60px;
+    position: fixed;
+    top: 71%;
+    right: 10px;
+  }
+
+  .face {
+    width: 60px;
+    position: fixed;
+    top: 78%;
+    right: 10px;
+  }
+
+  .instagram {
+    width: 60px;
+    position: fixed;
+    top: 85%;
+    right: 10px;
+  }
+
+  footer {
+    width: 181%;
+  }
 }
