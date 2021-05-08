@@ -242,7 +242,6 @@ h4 {
   color: white;
   font-family: "Cormorant Infant", serif;
   font-size: 1.1rem;
-
   height: 80px;
 }
 
@@ -370,7 +369,7 @@ footer {
   }
 
   h2 {
-    font-family: "Brush Script MT";
+    font-family: "Dancing Script", cursive;
     font: italic 55;
     padding: 0 0 1% 10%;
     font-size: 170%;
@@ -397,6 +396,14 @@ footer {
     margin: 15px 260px 0px 0;
     padding: 18px 30px;
     background-color: white !important;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .color-boton {
+    font-family: "Pristina" !important;
+  }
+
+  .color-boton:hover {
     font-family: "Pristina" !important;
   }
 
@@ -441,8 +448,6 @@ footer {
   .desplegables-color:active {
     background-color: #cd0d0a;
   }
-
-  /* acaaaaaaaaaaaaaaaaaa */
 
   h3 {
     font-family: "Segoe UI" !important;
@@ -507,6 +512,18 @@ footer {
     position: fixed;
     top: 83%;
     right: 2px;
+  }
+
+  .card-title {
+    font-family: "Dancing Script", cursive;
+  }
+
+  .card-text {
+    font-family: "Cormorant Infant", serif;
+  }
+
+  .boton-componente {
+    font-family: "Pristina";
   }
 
   .card {
