@@ -501,10 +501,10 @@ footer {
   }
 
   .form-control {
-    display: none;
+    display: none !important;
   }
   .color-boton {
-    display: none;
+    display: none !important;
   }
 
   h3 {
