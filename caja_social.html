@@ -73,7 +73,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="inicio-color active" aria-current="page" href="#"
+                <a class="inicio-color active" aria-current="page" href="./index.html"
                   >Inicio</a
                 >
               </li>
@@ -96,7 +96,7 @@
                     <li class="dropdown-submenu">
                       <a class="desplegables-color dropdown-item dropdown-toggle" href="#">Corresponsales</a>
                         <ul class="dropdown-menu">
-                            <li><a class="desplegables-color dropdown-item" href="./caja_social.html">Caja Social</a></li>
+                            <li><a class="desplegables-color dropdown-item" href="#">Caja Social</a></li>
                             <li><a class="desplegables-color dropdown-item" href="#">Submenu0</a></li>
                     </li>
                   </li>
@@ -160,13 +160,6 @@
         </form>        
       </nav>
 
-      <!-- <ul class="menu">
-        <li>Corresponsales</li>
-        <li>Productos</li>
-        <li>Miscelanea</li>
-        <li>Licores</li>
-      </ul> -->
-
       <div class="carrito">
         <img
           class="tamaño"
@@ -176,178 +169,29 @@
       </div>
     </header>
 
-    <div class="titulo">
-      <h3>CIGARRERIA DUBON</h3>
-      <h4>El espacio donde encontraras todo lo que buscas</h4>
-    </div>
+    <section class="contenedor_caja_social">
+        <picture>
+        <source media="(max-width: 375px)" srcset="./assets/caja_social_pequeña.jpg">
+        <img class="img_caja_social" src="./assets/caja_social.svg" alt="caja social">
+        </picture>
 
-    <!-- AQUI INICIA SLIDER -->
-    <main class="container-fluid">
-      <section class="">
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./assets/slider_corresponsal1.png"
-                class="d-block"
-                alt="./IMG/img_1.jpg"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/slider_daviplata1.png"
-                class="d-block"
-                alt="./IMG/img_1.jpg"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/slider_miscelanea1.png"
-                class="d-block"
-                alt="./IMG/img_1.jpg"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/slider_viveres1.png"
-                class="d-block"
-                alt="./IMG/img_1.jpg"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Fourth slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-      <!-- ACA INICIAN LAS TARJETAS -->
-      <section class="section-tarjetas">
-        <div class="card tarjeta" style="width: 16.3rem">
-          <img src="./assets/datafono.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Corresponsales</h5>
-            <p class="card-text">
-              Pague sus servicios públicos. Envié y reciba dinero desde
-              cualquier parte. Recargas.
-            </p>
-            <a href="./caja_social.html" class="btn2 boton-componente">Ver Mas</a>
-          </div>
-        </div>
-        <div class="card tarjeta" style="width: 16.3rem">
-          <img src="./assets/licores.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Licores</h5>
-            <p class="card-text">
-              Variedad y buenos precios en en gran variedad de licores y
-              bebidas.
-            </p>
-            <a href="#" class="btn2 boton-componente">Ver Mas</a>
-          </div>
-        </div>
-        <div class="card tarjeta" style="width: 16.3rem">
-          <img src="./assets/miscelanea.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Miscelanea</h5>
-            <p class="card-text">
-              Tenemos un amplia gama de útiles escolares y artículos de oficina.
-            </p>
-            <a href="#" class="btn2 boton-componente">Ver Mas</a>
-          </div>
-        </div>
-        <div class="card tarjeta" style="width: 16.3rem">
-          <img src="./assets/viveres.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Viveres</h5>
-            <p class="card-text">
-              Todo lo relacionado con despensa con la mejor calidad.
-            </p>
-            <a href="#" class="btn2 boton-componente">Ver Mas</a>
-          </div>
-        </div>
-        <div class="card tarjeta" style="width: 16.3rem">
-          <img src="./assets/daviplata.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Daviplata</h5>
-            <p class="card-text">
-              Puede meter y sacar plata de su DaviPlata, recibir, enviar y
-              pagar.
-            </p>
-            <a href="#" class="btn2 boton-componente">Ver Mas</a>
-          </div>
-        </div>
-      </section>
-    </main>
+        <div class="tex_encima">Todos necesitamos hacer las diligencias bancarias en el menor tiempo posible y con mayor comodidad. El Banco Caja Social ha implementado puntos de atención a lo largo y ancho del país para que encuentre uno cerca a su casa o a su lugar de trabajo. Prepárese para conocer qué tipo de trámites puede realizar en ellos.</div>
+    </section>
+    <section class="contenedor_tex">
+        <h5 class="h5_caja_social">Características</h5>
+        <p>En más de 2000 puntos de servicio en el país, usted realiza con seguridad transacciones con Tarjeta Débito en lugar de llevar efectivo:</p>
+        <ul>
+            <li class="li_caja_social">Depósitos, pago de servicios públicos y privados y pago de productos del Banco desde $1.000 hasta un (1) SMMLV por transacción.</li>
+            <li class="li_caja_social">Retiros de efectivo desde $1.000 hasta dos (2) salarios mínimos mensuales legales vigentes</li>
+            <li class="li_caja_social">Transferencias entre cuentas propias desde $10.000 hasta $5.000.000</li>
+        </ul>
+        <h5 class="h5_caja_social">Beneficios</h5>
+        <ul>
+            <li class="li_caja_social">Usted puede verificar de forma inmediata los pagos en todos los canales del Banco Caja Social.</li>
+            <li class="li_caja_social">Horarios flexibles: funcionan en horarios independientes, diferentes a los que tienen las entidades financieras.</li>
+            <li class="li_caja_social">Practicidad: la ubicación estratégica de los Corresponsales Bancarios del Banco Caja Social, le permite ahorrar tiempo y dinero, ya que tienen una amplia cobertura nacional y las transacciones no tienen costo.</li>
+        </ul>
+    </section>
     <!-- ACA INICIAN LAS REDES -->
     <a href="https://web.whatsapp.com/" target="_blank">
       <img
