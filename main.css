@@ -881,6 +881,7 @@ footer {
     position: fixed;
     top: 47%;
     left: 3px;
+    border: 2px solid tomato;
   }
 
   .face {
@@ -940,8 +941,8 @@ footer {
     text-align: center;
     font-size: 15px;
     opacity: 25%;
-    width: 650px;
-    margin: 8% 0 0 -24%;
+    width: 550px;
+    margin: 10% 0 -3% -24%;
   }
 
   .contenedor_tex {
