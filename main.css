@@ -647,7 +647,7 @@ footer {
     position: relative;
     text-align: center;
     font-size: 10px;
-    opacity: 50%;
+    opacity: 25%;
     width: 250px;
     margin: 18% 0 -7% -24%;
   }
@@ -916,5 +916,46 @@ footer {
   .card {
     margin-left: auto;
     margin-right: 55px;
+  }
+
+  footer {
+    width: 100%;
+    font-size: 6px;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    height: 50px;
+    margin-left: 11px;
+  }
+
+  .img_caja_social {
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+
+  .tex_encima {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    opacity: 25%;
+    width: 650px;
+    margin: 8% 0 0 -24%;
+  }
+
+  .contenedor_tex {
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 10px;
+  }
+
+  .p_centrar {
+    margin-left: 10px;
+  }
+
+  .li_caja_social {
+    margin-left: -13px;
   }
 }
