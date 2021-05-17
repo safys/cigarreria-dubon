@@ -377,7 +377,7 @@ footer {
 }
 
 /* MEDIA QUERYS ------------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 480px) {
   body {
     /* border: 2px solid springgreen; */
     width: 100%;
@@ -641,7 +641,7 @@ footer {
     font-size: 10px;
     opacity: 50%;
     width: 250px;
-    margin: 60px 0 -20px -80px;
+    margin: 18% 0 -7% -24%;
   }
 
   .contenedor_tex {
