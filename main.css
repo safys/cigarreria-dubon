@@ -377,7 +377,7 @@ footer {
 }
 
 /* MEDIA QUERYS ------------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
   body {
     /* border: 2px solid springgreen; */
     width: 100%;
