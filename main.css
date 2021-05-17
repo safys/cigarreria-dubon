@@ -376,7 +376,7 @@ footer {
   margin: auto;
 }
 
-/* MEDIA QUERYS ------------------------------------------------------------------------------------------------------------------- */
+/* 1 MEDIA QUERYS ********************************************************************************************************************** */
 @media screen and (max-width: 480px) {
   body {
     /* border: 2px solid springgreen; */
@@ -596,6 +596,7 @@ footer {
     position: fixed;
     top: 77.5%;
     left: 3px;
+    border: 2px solid springgreen;
   }
 
   .instagram {
@@ -667,7 +668,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 900px) {
+/* 2 MEDIA QUERYS ********************************************************************************************************************** */
+@media screen and (max-width: 900px) and (orientation: landscape) {
   body {
     /* border: 2px solid springgreen; */
     width: 100%;
@@ -877,21 +879,21 @@ footer {
   .what {
     width: 30px;
     position: fixed;
-    top: 65%;
+    top: 47%;
     left: 3px;
   }
 
   .face {
     width: 30px;
     position: fixed;
-    top: 74%;
+    top: 57%;
     left: 3px;
   }
 
   .instagram {
     width: 30px;
     position: fixed;
-    top: 84%;
+    top: 67%;
     left: 3px;
   }
 
